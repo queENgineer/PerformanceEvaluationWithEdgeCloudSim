@@ -56,17 +56,17 @@ public class SampleEdgeServerManager extends EdgeServerManager{
 	@Override
 	public void initialize() {
 		randomMIPS = new ArrayList<Integer>();
-		randomMIPS.add(10000);
-		randomMIPS.add(10000);
-		randomMIPS.add(15000);
-		randomMIPS.add(15000);
 		randomMIPS.add(20000);
 		randomMIPS.add(20000);
-		randomMIPS.add(20000);
-		randomMIPS.add(25000);
-		randomMIPS.add(25000);
 		randomMIPS.add(30000);
 		randomMIPS.add(30000);
+		randomMIPS.add(40000);
+		randomMIPS.add(40000);
+		randomMIPS.add(40000);
+		randomMIPS.add(50000);
+		randomMIPS.add(50000);
+		randomMIPS.add(60000);
+		randomMIPS.add(60000);
 	}
 
 	@Override
@@ -210,7 +210,7 @@ public class SampleEdgeServerManager extends EdgeServerManager{
 			
 			Element hostElement = (Element) hostNode;
 			int numOfCores = Integer.parseInt(hostElement.getElementsByTagName("core").item(0).getTextContent());
-			double mips = 0;// Double.parseDouble(hostElement.getElementsByTagName("mips").item(0).getTextContent());
+			double mips = Double.parseDouble(hostElement.getElementsByTagName("mips").item(0).getTextContent());
 			int ram = Integer.parseInt(hostElement.getElementsByTagName("ram").item(0).getTextContent());
 			long storage = Long.parseLong(hostElement.getElementsByTagName("storage").item(0).getTextContent());
 			long bandwidth = SimSettings.getInstance().getWlanBandwidth() / hostNodeList.getLength();
@@ -221,7 +221,7 @@ public class SampleEdgeServerManager extends EdgeServerManager{
 			 * Each scenario allocates this value to edge hosts at different rates
 			 */
 			if(simScenario.equals("EQUAL_CAPACITY")) {
-				mips = 20000;
+				mips = 40000;
 			}
 			else if(simScenario.equals("RANDOM_CAPACITY")) {
 				if(randomMIPS.isEmpty()) {
@@ -233,29 +233,7 @@ public class SampleEdgeServerManager extends EdgeServerManager{
 				mips = randomMIPS.remove(randomIndex);
 			}
 			else if(simScenario.equals("TRAFFIC_HEURISTIC")) {
-				switch (placeTypeIndex) {
-				//There is only one section with type 1 on the road
-				//The average speed of vehicles on these sections of the road is 20
-				case 0: {
-					mips = 44000;
-					break;
-				}
-				//There are six sections with type 1 on the road
-				//The average speed of vehicles on these sections of the road is 40
-				case 1: {
-					mips = 20000;
-					break;
-				}
-				//There are four sections with type 2 on the road
-				//The average speed of vehicles on these sections of the road is 60
-				case 2: {
-					mips = 14000;
-					break;
-				}
-				default:
-					SimLogger.printLine("Unknown place type! The simulation has been terminated.");
-					System.exit(0);
-				}
+				System.out.println(mips);
 			}
 			else {
 				SimLogger.printLine("Unknown simulation scenario! The simulation has been terminated.");

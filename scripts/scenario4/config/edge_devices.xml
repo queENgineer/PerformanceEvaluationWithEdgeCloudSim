@@ -14,19 +14,19 @@
 		<hosts>
 			<host>
 				<core>4</core>
-				<mips>0</mips>
+				<mips>22000</mips>
 				<ram>16000</ram>
 				<storage>250000</storage>
 				<VMs>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
@@ -48,19 +48,19 @@
 		<hosts>
 			<host>
 				<core>4</core>
-				<mips>0</mips>
+				<mips>22000</mips>
 				<ram>16000</ram>
 				<storage>250000</storage>
 				<VMs>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
@@ -81,20 +81,32 @@
 		</location>
 		<hosts>
 			<host>
-				<core>4</core>
-				<mips>0</mips>
-				<ram>16000</ram>
-				<storage>250000</storage>
+				<core>8</core>
+				<mips>44000</mips>
+				<ram>32000</ram>
+				<storage>500000</storage>
 				<VMs>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
@@ -115,20 +127,32 @@
 		</location>
 		<hosts>
 			<host>
-				<core>4</core>
-				<mips>0</mips>
-				<ram>16000</ram>
-				<storage>250000</storage>
+				<core>8</core>
+				<mips>44000</mips>
+				<ram>32000</ram>
+				<storage>500000</storage>
 				<VMs>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
@@ -149,20 +173,32 @@
 		</location>
 		<hosts>
 			<host>
-				<core>4</core>
-				<mips>0</mips>
-				<ram>16000</ram>
-				<storage>250000</storage>
+				<core>8</core>
+				<mips>44000</mips>
+				<ram>32000</ram>
+				<storage>500000</storage>
 				<VMs>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
@@ -183,20 +219,56 @@
 		</location>
 		<hosts>
 			<host>
-				<core>4</core>
-				<mips>0</mips>
-				<ram>16000</ram>
-				<storage>250000</storage>
+				<core>16</core>
+				<mips>88000</mips>
+				<ram>64000</ram>
+				<storage>1000000</storage>
 				<VMs>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
@@ -217,20 +289,32 @@
 		</location>
 		<hosts>
 			<host>
-				<core>4</core>
-				<mips>0</mips>
-				<ram>16000</ram>
-				<storage>250000</storage>
+				<core>8</core>
+				<mips>44000</mips>
+				<ram>32000</ram>
+				<storage>500000</storage>
 				<VMs>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
@@ -251,20 +335,32 @@
 		</location>
 		<hosts>
 			<host>
-				<core>4</core>
-				<mips>0</mips>
-				<ram>16000</ram>
-				<storage>250000</storage>
+				<core>8</core>
+				<mips>44000</mips>
+				<ram>32000</ram>
+				<storage>500000</storage>
 				<VMs>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
@@ -285,20 +381,32 @@
 		</location>
 		<hosts>
 			<host>
-				<core>4</core>
-				<mips>0</mips>
-				<ram>16000</ram>
-				<storage>250000</storage>
+				<core>8</core>
+				<mips>44000</mips>
+				<ram>32000</ram>
+				<storage>500000</storage>
 				<VMs>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
+						<ram>8000</ram>
+						<storage>125000</storage>
+					</VM>
+					<VM vmm="Xen">
+						<core>2</core>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
@@ -320,19 +428,19 @@
 		<hosts>
 			<host>
 				<core>4</core>
-				<mips>0</mips>
+				<mips>22000</mips>
 				<ram>16000</ram>
 				<storage>250000</storage>
 				<VMs>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
@@ -354,19 +462,19 @@
 		<hosts>
 			<host>
 				<core>4</core>
-				<mips>0</mips>
+				<mips>22000</mips>
 				<ram>16000</ram>
 				<storage>250000</storage>
 				<VMs>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
 					<VM vmm="Xen">
 						<core>2</core>
-						<mips>0</mips>
+						<mips>11000</mips>
 						<ram>8000</ram>
 						<storage>125000</storage>
 					</VM>
