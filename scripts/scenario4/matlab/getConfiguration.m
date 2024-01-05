@@ -8,13 +8,13 @@ function [ret_val] = getConfiguration(argType)
     elseif(argType == 2)
         ret_val = 15; %simulation time (in minutes)
     elseif(argType == 3)
-        ret_val = 5; %Number of iterations
+        ret_val = 3; %Number of iterations
     elseif(argType == 4)
         ret_val = 1; %x tick interval for number of mobile devices
     elseif(argType == 5)
-        ret_val = {'RANDOM_CAPACITY','EQUAL_CAPACITY','TRAFFIC_HEURISTIC'};
+        ret_val = {'TRAFFIC_HEURISTIC'};
     elseif(argType == 6)
-        ret_val = {'rand','equal','traffic'};
+        ret_val = {'traffic'};
     elseif(argType == 7)
         ret_val=[6 3 15 15]; %position of figure
     elseif(argType == 8)
@@ -26,7 +26,7 @@ function [ret_val] = getConfiguration(argType)
     elseif(argType == 11)
         ret_val = 100; %step size of mobile device count
     elseif(argType == 12)
-        ret_val = 2000; %max number of mobile device
+        ret_val = 5000; %max number of mobile device
     elseif(argType == 17)
         ret_val = 0; %return 1 if you want to add 10^n text at x axis
     elseif(argType == 18)

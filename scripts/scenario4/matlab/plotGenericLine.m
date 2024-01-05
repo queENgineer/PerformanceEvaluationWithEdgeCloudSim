@@ -75,7 +75,7 @@ function [] = plotGenericLine(rowOfset, columnOfset, yLabel, appType, calculateP
         end
     end
     
-    results = squeeze(results); %remove singleton dimensions
+    results = transpose(squeeze(results)); %remove singleton dimensions
     
     for i=1:size(scenarioType,2)
         for j=1:numOfMobileDevices
